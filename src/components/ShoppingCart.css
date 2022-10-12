@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 100%;
+  height: calc(100% - 70px);
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(57, 55, 72, 0.22);
+}
+
+.shopping-cart-modal {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  right: 60px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.my-bag {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1d1f22;
+  font-family: 'Raleway';
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1D1F22;
+}
+
+.total-price-amount {
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: #1D1F22;
+}
+
+.view-bag-button {
+  width: 140px;
+  height: 43px;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: 'Raleway';
+  color: #1d1f22;
+  border: 1px solid #1d1f22;
+  background-color: #ffffff;
+}
+
+.view-bag-button:hover {
+  cursor: pointer;
+}
+
+.check-out-button {
+  width: 140px;
+  height: 43px;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: 'Raleway';
+  color: #ffffff;
+  background-color: #5ece7b;
+  border: none;
+}
+
+.check-out-button:hover {
+  cursor: pointer;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px 0px 0px;
+}
+
+.shopping-cart-position {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.shopping-cart-space-between-items {
+  margin-top: 24px;
+}

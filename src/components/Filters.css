@@ -1,0 +1,43 @@
+.filters {
+  padding: 20px 20px 0 0;
+}
+
+.filters-title {
+  font-size: 24px;
+}
+
+.filter {
+  margin: 20px 0px;
+}
+
+.filter>select {
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.filter-name {
+  font-size: 18px;
+}
+
+.color-filter {
+  width: 28px;
+  height: 28px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reset-button {
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: '600';
+  background-color: #5ece7b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}

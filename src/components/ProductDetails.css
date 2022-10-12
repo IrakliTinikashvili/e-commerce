@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-content-for-card-details {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin-top: 80px;
+}
+
+.left-column-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+  margin: 0px 60px 0px 60px;
+}
+
+.item-type-title {
+  font-size: 30px;
+  font-family: 'Raleway';
+  color: #1d1f22;
+}
+
+.item-size {
+  border: 1px solid #1d1f22;
+  color: #292929;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  width: 63px;
+  height: 45px;
+  font-weight: 400;
+  text-align: center;
+  padding: 12px 0px 0px 0px;
+}
+
+.button-for-cart {
+  width: 292px;
+  height: 52px;
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: '600';
+  background-color: #5ece7b;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  margin-top: 30px;
+}
+
+.button-for-cart:hover {
+  cursor: pointer;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.price-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1D1F22;
+  margin-top: 50px;
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+}
+
+.product-details-middle-content {
+  margin-left: -140px;
+}
+
+.product-details-price {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Raleway';
+  color: #1D1F22;
+}
+
+.product-details-out-of-stock {
+  color: red;
+  margin-top: 50px;
+}
+
+.product-details-item-description {
+  margin-top: 30px;
+  font-size: 18px;
+  width: 292px;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.currency-selector {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: #1D1F22;
+    padding: 5px;
+}

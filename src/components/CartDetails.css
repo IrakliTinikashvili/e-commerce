@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.button-for-order {
+    width: 279px;
+    height: 46px;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: 600;
+    background-color: #5ECE7B;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    margin-top: 16px;
+}
+
+.button-for-order:hover {
+    cursor: pointer;
+}
+
+.cart-details-content-position {
+    margin: 70px 70px 50px 60px;
+}
+
+.cart-details-title {
+    margin-bottom: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1D1F22;
+    font-family: 'Raleway';
+}
+
+.hr {
+    margin: 25px 0px;
+}
+
+.cart-details-bottom-content {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'Raleway';
+    color: #1D1F22;
+}
+
+.tax-quantity-amount-numbers {
+    font-weight: 700;
+    margin-left: 10px;
+}

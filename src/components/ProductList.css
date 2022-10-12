@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.cards {
+  display: grid;
+  gap: 100px 40px;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1850px) {
+  .cards {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (max-width: 1465px) {
+  .cards {
+    grid-template-columns: auto auto;
+  }
+}
+
+.main-content-title {
+  margin: 10px 0px;
+  font-family: 'Raleway';
+  font-size: 42px;
+  color: #1d1f22;
+  text-transform: capitalize;
+}
+
+.side-bar {
+  min-width: 200px;
+  width: 200px;
+}
